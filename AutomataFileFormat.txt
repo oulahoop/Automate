@@ -1,0 +1,36 @@
+To implement your automata in txt for my program :
+
+1st line is ALL the State name
+2nd line is ALL the Character
+3rd line is the first State
+4th line is the set of all final State
+5th and more are the relation between two state separated by all the Character to acced to it
+
+Format of a transition :
+State1 ABCD;= State2.
+Here you access to the State2 by the State1 with A or B or C or D or ; or =
+
+If you want to put a space for a transition, you can do it by doing :
+State1   State2
+
+example of a Smiley Automata (the order of line is important but in the line is not important) :
+Y1 Y2 B N E0
+:;-=)(
+E0
+B
+E0 : Y1
+E0 ; Y2
+Y1 -= N
+Y2 - N
+N )( B
+
+
+This automata recognize :
+:-)
+:-(
+:=)
+:=(
+;-)
+;-(
+
+If you need help, don't hesitate to contact me on Discord : oula#7838

@@ -105,7 +105,7 @@ public class Automata {
     }
 
     /**
-     * Load an Automata with a filename. The automata must respect the format explain in ExplainationAutomataFile.txt
+     * Load an Automata with a filename. The automata must respect the format explain in AutomataFileFormat.txt
      * @param filename the filename of your automata
      */
     public void loadAutomata(String filename){
